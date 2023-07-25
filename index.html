@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html lang='ko'>
+<head>
+   <title>FREITAG | One-off pieces made from recycled truck tarps</title>
+   <meta charset='utf-8'>
+   <meta name='Viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.6'>
+   <meta name='Title' content='프라이탁'>
+   <meta name='Subject' content='프라이탁'>
+   <meta name='Keywords' content='website'>
+   <meta name='Publisher' content='jiyoung'>
+   <meta name='Description' content='프라이탁'>
+   <meta name='Author-Date' content='20230522'>
+   <meta name='Robots' content='index,follow'>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+   <link rel='stylesheet' href='css/reset.css'>
+   <link rel='stylesheet' href='css/style.css'>
+   <!-- 파비콘 -->
+   <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+
+   <script src='js/lib/jquery-1.12.4.min.js'></script>
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   <script src='js/lib/script.js' defer></script>
+
+</head>
+<body>
+  <div id="wrapper">
+      <ul id="skip">
+         <li><a href="#header">헤더 바로가기</a></li>
+         <li><a href="#nav">메뉴 바로가기</a></li>
+         <li><a href="#content">내용 바로가기</a></li>
+      </ul>
+      <div id="wrap">
+        <div id="page-top">
+         <div class="desktop">
+            <div id="top-logo">
+               <img src="./img/logo.svg" alt="logo">
+            </div>
+            <button class="menu-button">
+               <span class="bar1"></span>
+               <span class="bar2"></span>
+               <span class="bar3"></span>
+            </button>
+            <a href="#" class="top-user" title="View my profile">
+               <i class="fa-solid fa-user fa-xl"></i>
+            </a>
+            <main id="main">
+            <div class="layout-content">
+               <div class="block-freitag-content">
+                  <article class="article">
+                     <div class="node__content">
+                        <section>
+                           <div class="container">
+                              <div class="title-box">
+                                 <h1>
+                                    Create your F-ederation account
+                                    </h1>
+                              </div>
+                           </div>
+                        </section>
+                        <section class="layout">
+                           <div class="container">
+                              <div class="flex-wrap">
+                                 <div class="left-box">
+                                    <form action="/en/user/register" method="post" id="user-register-form" onsubmit="return false"">
+                                       <div class="preferences-account-info">
+                                          <h3>Account info</h3>
+                                          <div class="form-item-container">
+                                             <label for="edit-mail" class="form-required">
+                                                <span>Email address &#42;</span>
+                                                <input type="email" data-drupal-selector="edit-mail" id="edit-mail" class="form-text" name="main" aria-required="true" required>
+                                             </label>
+                                          </div>
+                                          <div class="form-item-container">
+                                             <label for="edit-confirm-mail" class="form-required">
+                                                <span>Confirm email address &#42;</span>
+                                                <input type="email" data-drupal-selector="edit-mail" id="edit-mail" class="form-text" name="main" required>
+                                             </label>
+                                          </div>
+                                          <div class="form-item-container">
+                                             <label for="edit-confirm-mail" class="form-required">
+                                                <span>First name &#42;</span>
+                                                <p id="nameMes"></p>
+                                                <input type="text" data-drupal-selector="edit-mail" id="edit-mail" class="form-text" name="main" aria-required="true" required>
+                                             </label>
+                                          </div>
+                                          <div class="form-item-container">
+                                             <label for="edit-confirm-mail" class="form-required">
+                                                <span>Last name &#42;</span>
+                                                <input type="text" data-drupal-selector="edit-mail" id="edit-mail" class="form-text" name="main" aria-required="true" required>
+                                             </label>
+                                          </div>
+                                          <div class="form-item-container choices-select-container"">
+                                             <label for="edit-confirm-mail" class="form-required">
+                                                <span>Language &#42;</span>
+                                             </label>
+                                             <div class="control">
+                                                <div class="form-select">
+                                                   <div class="choices">
+                                                      <div class="choices__inner">
+                                                         <select name="language" id="edit-language" class="form-text" data-drupal-selector="edit-language">
+                                                            <option value="en">English</option>
+                                                            <option value="en">German</option>
+                                                            <option value="en">French</option>
+                                                            <option value="en">Italian</option>
+                                                            <option value="en">Chinese, Simplified</option>
+                                                            <div class="choices__list">
+                                                               <!-- <input type="text" class="choices__input" aria-label="null" placeholder> -->
+                                                               <!-- <div class="choices__list" role="listbox">
+                                                                  <div class="language-item" aria-selected="true" data-value="en">English</div>
+                                                                  <div class="language-item" aria-selected="true" data-value="en">German</div>
+                                                                  <div class="language-item" aria-selected="true" data-value="en">French</div>
+                                                                  <div class="language-item" aria-selected="true" data-value="en">Italian</div>
+                                                                  <div class="language-item" aria-selected="true" data-value="en">Japanese</div>
+                                                                  <div class="language-item" aria-selected="true" data-value="en">Chinese, Simplified</div>
+                                                               </div> -->
+                                                            </div>
+                                                         </select>
+                                                         <div class="benefits">
+                                                            <h3>F-ederation benefits</h3>
+                                                               <div class="check-box">
+                                                                  <div class="form-item-container">
+                                                                     <div class="flex">
+                                                                        <input type="checkbox" name="benefits" class="edit-benefits" id="cb1" value="1" @click="checked = $event.target.checked; isFirstLoad = false" >
+                                                                        <!-- <i class="fa-solid fa-check fa-2xs"></i> -->
+                                                                        <label for="edit-benefits" class="option">
+                                                                           <span>I'd like access to all F‑ederation benefits and personal updates.</span>
+                                                                        </label>
+                                                                     </div>
+                                                                     <div class="error-message">
+                                                                        Careful! If you uncheck this box, we’ll no longer be allowed to send you personal information and you’ll lose access to all your exclusive F-ederation benefits, such as S.W.A.P., product registration and the F-Archive.
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                         </div>
+                                                         <div class="preferences-newsletters">
+                                                            <h3>Newsletter</h3>
+                                                            <div class="form-item-container">
+                                                               <input type="checkbox" name="benefits" class="edit-benefits">
+                                                               <label for="edit-newsletter" class="option">
+                                                                  <span>I'd like to receive the FREITAG Newsletter.</span>
+                                                               </label>
+                                                            </div>
+                                                         </div>
+                                                         <div class="form-wrapper">
+                                                            <!-- <input type="submit" class="button" name="op" value="Create user account" id="edit-submit">  -->
+                                                            <input type="submit" class="button" name="op" value="Create user account" id="edit-submit">
+                                                         </div>
+                                                         <div class="terms-of-service">
+                                                            <p>& hereby agree to the <a href="#" class="link">privacy policy</a></p>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </form>
+                                 </div>
+                                 <div class="right-f">
+                                    <div class="box-1">
+                                       <div class="text-box">
+                                          <p>Having a F-ederation account enables you to keep track of and change your orders, but also automatically makes you part of the F-ederation. And that means you get a whole lot of thanks and love back. You can listen to our Spotify playlists, for example, browse the F-Archive, register your F-Products and benefit from free repair services.</p>
+                                          <p>&nbsp;</p>
+                                          <p>For some F-ederation services we need to be allowed to contact you. So, give us your consent and we’ll give you free access to all the benefits.</p>
+                                       </div>
+                                    </div>
+                                    <div class="box-2">
+                                       <h3>EXCLUSIVE ACCESS</h3>
+                                       <div class="block-image">
+                                          <img src="./img/federation-acess.jpg" alt="" class="responsive-image">
+                                       </div>
+                                    </div>
+                                    <div class="box-3">
+                                       <h3>SERVICES</h3>
+                                       <div class="block-image">
+                                          <img src="./img/freitag-repair-pfrowein-high-res-02-0.jpg" alt="" class="responsive-image">
+                                       </div>
+                                    </div>
+                                    <div class="box-4">
+                                       <h3>SERVICES</h3>
+                                       <div class="block-image">
+                                          <img src="./img/federation-suprises.jpg" alt="" style="width: 612px; height: 204px;" class="responsive-image">
+                                       </div>
+                                    </div>
+                                    <div class="box-5">
+                                       <h3>SERVICES</h3>
+                                       <div class="block-image">
+                                          <img src="./img/federation-insights.jpg" alt="" class="responsive-image">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </section>
+                     </div>
+                  </article>
+               </div>
+            </div>
+            </main>
+         </div>
+         <div class="mobile">
+         </div>
+      </div>
+  </div>
+  <!-- fontawesome -->
+<script src="https://kit.fontawesome.com/dd62c289ec.js" crossorigin="anonymous"></script>
+</body>
+</html>
+

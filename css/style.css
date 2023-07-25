@@ -1,0 +1,131 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap');
+body{font-family: 'Roboto', sans-serif; font-family: inherit; line-height: inherit;}
+
+html{font-size: 10px}
+*, :after, :before {border: 0 solid; box-sizing: border-box;}
+
+
+#top-logo {display: flex; background-color: rgba(0,0,0,.6);}
+#top-logo>img {position: fixed; width: 150px; height: 50px;}
+.menu-button{
+    --tw-text-opacity: 1;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+    font-size: 14px;
+    position: fixed;
+    left: 150px;
+    background-color: rgba(0,0,0,.6);
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+
+.menu-button span{display: block;
+    width: 23px;
+    height: 2px;
+    margin: 5px auto 0;
+    background: #fff;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    vertical-align: middle;
+}
+.top-user {width: 50px; height: 50px; background-color: rgba(0,0,0,.6); position: fixed; left: 200px; text-align: center;}
+.top-user>i{position: absolute; top: 27px; right: 20px; color: #fff;}
+
+#main {padding-top: 50px;}
+.container {width: 1256px;  margin: 0 auto;}
+
+
+.node__content > section {padding-bottom: 40px;}
+.title-box > h1 {font-size: 60px; font-weight: 700; line-height: 1.1; text-transform: uppercase; text-align: center;}
+.flex-wrap {display: flex; flex-wrap: wrap; margin: 0 auto; padding-top: 20px;}
+.left-box {width: 50%;}
+
+/* .flex-wrap {border: 1px solid #f00;} */
+.flex-wrap .left-box{padding: 10px;}
+
+.preferences-account-info h3{margin-bottom: 24px; font-size: 22px; font-weight: 700; line-height: 1.1; text-transform: uppercase;}
+.form-item-container {margin-bottom: 24px; margin-right: 10px;}
+.form-required {font-size: 14px;}
+.form-required span{display: block;}
+.form-text{border-bottom-width: 2px; outline: 2px solid transparent;
+    outline-offset: 2px; width: 300px; font-size: 18px;}
+.form-text:focus{border-color:rgba(181,198,156);}
+
+
+.control .form-select{font-size: 18px;}
+
+.choices__list {overflow: hidden;}
+#edit-language {font-size: 18px; width: 300px; margin-bottom: 44px;}
+.choices > .choices__inner select {margin-left: -5px;}
+.choices > .choices__inner select option:focus {background: rgba(181,198,156);}
+/* .choices > .choices__inner select option {width: 100%;} */
+
+.benefits {margin-bottom: 56px;}
+.benefits h3{margin-bottom: 24px;}
+.edit-benefits {cursor: pointer;
+    margin-left: 4px;
+    margin-top: 6px;
+    opacity: 0;
+    position: absolute;
+}
+.flex{     display: flex;}
+.form-item-container input~label:before{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    --tw-border-opacity: 1;
+    border-color: rgba(29,29,27,var(--tw-border-opacity));
+    border-width: 2px;
+    content: "";
+    flex: 0 0 auto;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 12px;
+    min-width: 20px;
+    padding-top: 1px;
+    text-align: center;
+    cursor: pointer;
+}   
+/* .form-item-container input:checked~label:before {
+    content: "\f00c";
+    opacity: 1;
+} */
+
+.error-message {margin-left: 32px; font-size: 14px; color: #cd3636; line-height: 1.25;}
+.preferences-newsletters {margin-bottom: 72px;}
+
+.form-wrapper {margin-bottom: 20px;}
+.button {
+    background-color: rgba(29,29,27,var(--tw-bg-opacity));
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    padding: 13px 16px;
+    text-transform: uppercase;
+    border-color: rgba(29,29,27,var(--tw-border-opacity));
+    border-radius: 0;
+    border-width: 2px;
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    --tw-border-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+.terms-of-service p {
+    font-size: 16px!important;
+}
+.terms-of-service p a {background: #b5c69c;}
+
+
+.right-f {width: 50%; padding: 10px;}
+.box-1 {margin-bottom: 40px;}
+.text-box p {font-size: 18px; line-height: 1.25; color: #1d1d1b;}
+h3 {font-size: 22px; line-height: 1.1; text-transform: uppercase; font-weight: 700; margin-bottom: 20px; margin-top: 40px;}
+
